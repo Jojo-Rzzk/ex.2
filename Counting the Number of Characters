@@ -1,0 +1,44 @@
+"""
+noun =  input string // the input string and the number of characters the string contains
+
+verb = prompts // displays
+
+Example Output
+What is the input string? Homer
+Homer has 5 characters.
+
+TDD
+
+1)
+Inputs: Hello
+Expected result: Hello has 5 characters.
+Actual result: Hello has 5 characters. \\
+
+2)
+Inputs: Javeria
+Expected result: Javeria has 7 characters.
+Actual result: Javeria has 7 characters. \\
+
+3)
+Inputs: 1234
+Expected result: 1234 has 4 characters.
+Actual result: 1234 has 4 characters. \\
+
+4)
+Inputs: @#$
+Expected result: @#$ has 3 characters.
+Actual result: @#$ has 3 characters. \\
+
+"""
+
+#Step 1: prompt, input string
+
+word = input("What is the input string? ")
+
+#Step 2: convert, word to number of characters
+
+NUMofCHAR = len(word)
+
+#Step 3: display, the input string and the number of characters the string contains
+
+print(f"{word} has {NUMofCHAR} characters.")
